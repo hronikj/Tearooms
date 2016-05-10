@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5011EB1CAAC79A0022EE1A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5011EA1CAAC79A0022EE1A /* DetailViewController.swift */; };
+		0F5011ED1CABC6400022EE1A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5011EC1CABC6400022EE1A /* MapViewController.swift */; };
+		0F5011EF1CAC66E30022EE1A /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5011EE1CAC66E30022EE1A /* SplashScreenViewController.swift */; };
+		0F5011F11CAD32880022EE1A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5011F01CAD32880022EE1A /* NavigationController.swift */; };
+		0F5011F31CAD340F0022EE1A /* CAGradientLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5011F21CAD340F0022EE1A /* CAGradientLayerExtension.swift */; };
+		0F810ACB1CAEE0A000B85B26 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F810ACA1CAEE0A000B85B26 /* CustomPointAnnotation.swift */; };
+		0F810ACD1CAF02A100B85B26 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F810ACC1CAF02A100B85B26 /* MapKit.framework */; };
+		0FCE8D5C1CA32CED00CED337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE8D5B1CA32CED00CED337 /* AppDelegate.swift */; };
+		0FCE8D5E1CA32CED00CED337 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE8D5D1CA32CED00CED337 /* MainTableViewController.swift */; };
+		0FCE8D611CA32CED00CED337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE8D5F1CA32CED00CED337 /* Main.storyboard */; };
+		0FCE8D631CA32CED00CED337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE8D621CA32CED00CED337 /* Assets.xcassets */; };
+		0FCE8D661CA32CED00CED337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE8D641CA32CED00CED337 /* LaunchScreen.storyboard */; };
+		0FCE8D6F1CA3DE9C00CED337 /* Tearoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE8D6E1CA3DE9C00CED337 /* Tearoom.swift */; };
+		0FCE8D711CA3E14600CED337 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE8D701CA3E14600CED337 /* MainTableViewCell.swift */; };
+		0FCE8D731CA3F0CC00CED337 /* jsonGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE8D721CA3F0CC00CED337 /* jsonGetter.swift */; };
+		0FCE8D771CA545EB00CED337 /* TearoomAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE8D761CA545EB00CED337 /* TearoomAPIHandler.swift */; };
+		300EA48ACA9DF80E0C3944BF /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF5652EB64ED65E51CDF201 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F5011EA1CAAC79A0022EE1A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0F5011EC1CABC6400022EE1A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0F5011EE1CAC66E30022EE1A /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		0F5011F01CAD32880022EE1A /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		0F5011F21CAD340F0022EE1A /* CAGradientLayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerExtension.swift; sourceTree = "<group>"; };
+		0F810ACA1CAEE0A000B85B26 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		0F810ACC1CAF02A100B85B26 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0FCE8D581CA32CED00CED337 /* Tearooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tearooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCE8D5B1CA32CED00CED337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FCE8D5D1CA32CED00CED337 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		0FCE8D601CA32CED00CED337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FCE8D621CA32CED00CED337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FCE8D651CA32CED00CED337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FCE8D671CA32CED00CED337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCE8D6E1CA3DE9C00CED337 /* Tearoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tearoom.swift; sourceTree = "<group>"; };
+		0FCE8D701CA3E14600CED337 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		0FCE8D721CA3F0CC00CED337 /* jsonGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jsonGetter.swift; sourceTree = "<group>"; };
+		0FCE8D761CA545EB00CED337 /* TearoomAPIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TearoomAPIHandler.swift; sourceTree = "<group>"; };
+		8EF5652EB64ED65E51CDF201 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D69BFC6D830C8BD9072330A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CFFB09D9B1C54E8AE64782EE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FCE8D551CA32CED00CED337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F810ACD1CAF02A100B85B26 /* MapKit.framework in Frameworks */,
+				300EA48ACA9DF80E0C3944BF /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE54F8F6EE59E24924AEEDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D69BFC6D830C8BD9072330A /* Pods.debug.xcconfig */,
+				CFFB09D9B1C54E8AE64782EE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0FCE8D4F1CA32CED00CED337 = {
+			isa = PBXGroup;
+			children = (
+				0FCE8D5A1CA32CED00CED337 /* Tearooms */,
+				0FCE8D591CA32CED00CED337 /* Products */,
+				0AE54F8F6EE59E24924AEEDD /* Pods */,
+				1B9F475AB6BA097FDBD29B25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FCE8D591CA32CED00CED337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE8D581CA32CED00CED337 /* Tearooms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FCE8D5A1CA32CED00CED337 /* Tearooms */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE8D5F1CA32CED00CED337 /* Main.storyboard */,
+				0FCE8D6E1CA3DE9C00CED337 /* Tearoom.swift */,
+				0FCE8D5D1CA32CED00CED337 /* MainTableViewController.swift */,
+				0F5011EA1CAAC79A0022EE1A /* DetailViewController.swift */,
+				0F810ACA1CAEE0A000B85B26 /* CustomPointAnnotation.swift */,
+				0FCE8D761CA545EB00CED337 /* TearoomAPIHandler.swift */,
+				0F5011EC1CABC6400022EE1A /* MapViewController.swift */,
+				0FCE8D701CA3E14600CED337 /* MainTableViewCell.swift */,
+				0F5011EE1CAC66E30022EE1A /* SplashScreenViewController.swift */,
+				0F5011F21CAD340F0022EE1A /* CAGradientLayerExtension.swift */,
+				0F5011F01CAD32880022EE1A /* NavigationController.swift */,
+				0FCE8D721CA3F0CC00CED337 /* jsonGetter.swift */,
+				0FCE8D6D1CA32D4600CED337 /* Support Files */,
+			);
+			path = Tearooms;
+			sourceTree = "<group>";
+		};
+		0FCE8D6D1CA32D4600CED337 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE8D5B1CA32CED00CED337 /* AppDelegate.swift */,
+				0FCE8D641CA32CED00CED337 /* LaunchScreen.storyboard */,
+				0FCE8D621CA32CED00CED337 /* Assets.xcassets */,
+				0FCE8D671CA32CED00CED337 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		1B9F475AB6BA097FDBD29B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F810ACC1CAF02A100B85B26 /* MapKit.framework */,
+				8EF5652EB64ED65E51CDF201 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FCE8D571CA32CED00CED337 /* Tearooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCE8D6A1CA32CED00CED337 /* Build configuration list for PBXNativeTarget "Tearooms" */;
+			buildPhases = (
+				04B61E11B50DF5A8655BE933 /* Check Pods Manifest.lock */,
+				0FCE8D541CA32CED00CED337 /* Sources */,
+				0FCE8D551CA32CED00CED337 /* Frameworks */,
+				0FCE8D561CA32CED00CED337 /* Resources */,
+				D09B7203EA850568BFD80727 /* Embed Pods Frameworks */,
+				257F30E5EE7F6D0FD1E50308 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tearooms;
+			productName = Tearooms;
+			productReference = 0FCE8D581CA32CED00CED337 /* Tearooms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FCE8D501CA32CED00CED337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jiří Hroník";
+				TargetAttributes = {
+					0FCE8D571CA32CED00CED337 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H5RK55468U;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0FCE8D531CA32CED00CED337 /* Build configuration list for PBXProject "Tearooms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FCE8D4F1CA32CED00CED337;
+			productRefGroup = 0FCE8D591CA32CED00CED337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FCE8D571CA32CED00CED337 /* Tearooms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FCE8D561CA32CED00CED337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCE8D661CA32CED00CED337 /* LaunchScreen.storyboard in Resources */,
+				0FCE8D631CA32CED00CED337 /* Assets.xcassets in Resources */,
+				0FCE8D611CA32CED00CED337 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B61E11B50DF5A8655BE933 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		257F30E5EE7F6D0FD1E50308 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09B7203EA850568BFD80727 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FCE8D541CA32CED00CED337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCE8D5E1CA32CED00CED337 /* MainTableViewController.swift in Sources */,
+				0FCE8D5C1CA32CED00CED337 /* AppDelegate.swift in Sources */,
+				0F5011EF1CAC66E30022EE1A /* SplashScreenViewController.swift in Sources */,
+				0FCE8D771CA545EB00CED337 /* TearoomAPIHandler.swift in Sources */,
+				0FCE8D731CA3F0CC00CED337 /* jsonGetter.swift in Sources */,
+				0FCE8D711CA3E14600CED337 /* MainTableViewCell.swift in Sources */,
+				0FCE8D6F1CA3DE9C00CED337 /* Tearoom.swift in Sources */,
+				0F5011F11CAD32880022EE1A /* NavigationController.swift in Sources */,
+				0F5011EB1CAAC79A0022EE1A /* DetailViewController.swift in Sources */,
+				0F5011ED1CABC6400022EE1A /* MapViewController.swift in Sources */,
+				0F810ACB1CAEE0A000B85B26 /* CustomPointAnnotation.swift in Sources */,
+				0F5011F31CAD340F0022EE1A /* CAGradientLayerExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FCE8D5F1CA32CED00CED337 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FCE8D601CA32CED00CED337 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FCE8D641CA32CED00CED337 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FCE8D651CA32CED00CED337 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FCE8D681CA32CED00CED337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FCE8D691CA32CED00CED337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FCE8D6B1CA32CED00CED337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D69BFC6D830C8BD9072330A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tearooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hronik.jiri.Tearooms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0FCE8D6C1CA32CED00CED337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFB09D9B1C54E8AE64782EE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tearooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hronik.jiri.Tearooms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FCE8D531CA32CED00CED337 /* Build configuration list for PBXProject "Tearooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCE8D681CA32CED00CED337 /* Debug */,
+				0FCE8D691CA32CED00CED337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCE8D6A1CA32CED00CED337 /* Build configuration list for PBXNativeTarget "Tearooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCE8D6B1CA32CED00CED337 /* Debug */,
+				0FCE8D6C1CA32CED00CED337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FCE8D501CA32CED00CED337 /* Project object */;
+}
